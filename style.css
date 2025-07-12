@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-container{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: grey;
+    opacity: 0.3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 40px;    
+}
+
+hr{
+    width: 80%;
+}
+#timer{
+    font-size: 70px;
+}
+.button-container{
+    height: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+}
