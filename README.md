@@ -25,7 +25,7 @@ Built using HTML, CSS, and JavaScript — with a modern design and flexible time
 
 ## 🌐 Live Demo
 
-👉 [Visit the hosted demo](https://your-netlify-link.netlify.app)  
+👉 [Visit the hosted demo](pomodoro-by-yash.netlify.app)  
 *(replace with your actual Netlify URL)*
 
 ---
