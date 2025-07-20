@@ -20,7 +20,7 @@ Built using HTML, CSS, and JavaScript — with a modern design and flexible time
 ## 📸 Screenshot
 
 ![Pomodoro Timer Screenshot](./image.png)
-
+![Pomodoro Timer GIF](./pomodoro.gif)
 ---
 
 ## 🌐 Live Demo
