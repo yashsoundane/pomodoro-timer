@@ -27,6 +27,7 @@ Built using HTML, CSS, and JavaScript — with a modern design and flexible time
 
 👉 [Visit the hosted demo](pomodoro-by-yash.netlify.app)  
 *(replace with your actual Netlify URL)*
+💰 [Buy on Gumroad](https://codewithyash.gumroad.com/l/pomodoro-timer)
 
 ---
 
