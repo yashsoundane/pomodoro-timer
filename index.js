@@ -4,6 +4,9 @@ const stop = document.getElementById("stop");
 const reset = document.getElementById("reset");
 const minInput = document.getElementById("input-box");
 
+const beepSound = new Audio("beepsound2.wav");
+
+
 let timeLeft = 0;
 let interval;
 
@@ -17,7 +20,7 @@ function updateTimer() {
 function startTimer() {
 
     timeLeft = parseInt(minInput.value) * 60;
-    
+
     if (isNaN(timeLeft) || timeLeft <= 0) {
         alert("Please enter a valid number of minutes.");
         return;
@@ -31,7 +34,8 @@ function startTimer() {
 
         if (timeLeft === 0) {
             clearInterval(interval);
-            alert("Time's up!");
+            // alert("Time's up!")
+            beepSound.play();
             timeLeft = parseInt(minInput.value) * 60;
             updateTimer();
         }
@@ -44,6 +48,10 @@ function stopTimer() {
 }
 
 function resetTimer() {
+    if (isNaN(timeLeft) || timeLeft <= 0) {
+        alert("Please enter a valid number of minutes.");
+        return;
+    }
     clearInterval(interval);
     timeLeft = parseInt(minInput.value) * 60;
     updateTimer();
@@ -53,10 +61,3 @@ function resetTimer() {
 start.addEventListener("click", startTimer);
 stop.addEventListener("click", stopTimer);
 reset.addEventListener("click", resetTimer);
-
-// const updateBox = document.getElementById("update");
-// function updateNewtimer() {
-//     updateBox.innerText = minInput.value * 60;
-// }
-
-// btn.addEventListener("click", updateNewtimer);
