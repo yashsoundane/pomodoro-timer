@@ -19,8 +19,6 @@ Built using HTML, CSS, and JavaScript — with a modern design and flexible time
 
 ## 📸 Screenshot
 
-*(Add a screenshot or GIF here if available)*
-## 📸 Screenshot
 ![Pomodoro Timer Screenshot](./image.png)
 
 ---
@@ -56,6 +54,8 @@ pomodoro-timer/
 ├── index.js
 ├── favicon.ico
 ├── beepsound.wav
+├── image.png   
+
 
 
 ---
